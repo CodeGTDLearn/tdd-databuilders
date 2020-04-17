@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d95edc3-ddd0-46f0-bf3f-5f48b8459b1a" name="Default Changelist" comment="" />
+    <list default="true" id="5d95edc3-ddd0-46f0-bf3f-5f48b8459b1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/OrderBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/OrderTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aP8zDVjBfxvYVcIY56L53XQc6u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -120,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.test222" />
         <item itemvalue="JUnit.OrderTest.test111" />
         <item itemvalue="JUnit.OrderTest222" />
-        <item itemvalue="JUnit.OrderTest.test222" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +155,8 @@
       <workItem from="1587057673813" duration="9002000" />
       <workItem from="1587072594969" duration="2187000" />
       <workItem from="1587074802397" duration="1591000" />
-      <workItem from="1587076411271" duration="802000" />
+      <workItem from="1587076411271" duration="996000" />
+      <workItem from="1587077483805" duration="4280000" />
     </task>
     <servers />
   </component>
@@ -183,22 +192,22 @@
       <screen x="0" y="0" width="1376" height="774" />
     </state>
     <state x="288" y="12" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1376.774@0.0.1376.774" timestamp="1587059166050" />
-    <state width="1314" height="278" key="GridCell.Tab.0.bottom" timestamp="1587076907397">
+    <state width="1314" height="278" key="GridCell.Tab.0.bottom" timestamp="1587080560238">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1587076907397" />
-    <state width="1314" height="278" key="GridCell.Tab.0.center" timestamp="1587076907397">
+    <state width="1314" height="278" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
+    <state width="1314" height="278" key="GridCell.Tab.0.center" timestamp="1587080560238">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1587076907397" />
-    <state width="1314" height="278" key="GridCell.Tab.0.left" timestamp="1587076907396">
+    <state width="1314" height="278" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
+    <state width="1314" height="278" key="GridCell.Tab.0.left" timestamp="1587080560238">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1587076907396" />
-    <state width="1314" height="278" key="GridCell.Tab.0.right" timestamp="1587076907397">
+    <state width="1314" height="278" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
+    <state width="1314" height="278" key="GridCell.Tab.0.right" timestamp="1587080560238">
       <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1587076907397" />
+    <state width="1314" height="278" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
     <state x="0" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586649558322">
       <screen x="0" y="0" width="1376" height="774" />
     </state>

@@ -9,4 +9,5 @@ import lombok.*;
 @AllArgsConstructor
 public class Order {
     private int idOrder;
+    private String catBreed;
 }
