@@ -32,7 +32,7 @@ public class DataBuilderLombok {
                      .regexify("[1-9] {3}")
                      .trim());
 
-  public static DataBuilderLombok ordemComId() {
+  public static DataBuilderLombok orderWithId() {
 
     return DataBuilderLombok.builder()
 
@@ -43,7 +43,7 @@ public class DataBuilderLombok {
                             .build();// carregamento ESTATICO
   }
 
-  public static DataBuilderLombok ordemComIdRandom() {
+  public static DataBuilderLombok ordemWithIdRandom() {
 
     return DataBuilderLombok.builder()
                             //builda a variavel de instancia: 'ordem'

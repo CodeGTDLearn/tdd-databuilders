@@ -5,6 +5,7 @@ import entity.Order;
 import utils.CustomDataFaker;
 
 import static java.lang.Integer.parseInt;
+import static java.lang.Long.parseLong;
 
 
 public class DataBuilderConventional {
@@ -29,30 +30,35 @@ public class DataBuilderConventional {
     return new Order(idOrder, catBreed);
   }
 
-  public static Order completeOrderWithId(){
+  public static Order completeOrderWithId() {
+
     return new DataBuilderConventional()
-         .setIdOrder(parseInt(CustomDataFaker.Provides.SinId()))
+         .setIdOrder((int) CustomDataFaker.Provides.RandomDouble())
          .setCatBreed(CustomDataFaker.Provides.CatBreed())
          .build();
   }
 
-  public static Order completeOrderWithoutId(){
+  public static Order completeOrderWithoutId() {
+
     return new DataBuilderConventional()
          .setCatBreed(CustomDataFaker.Provides.CatBreed())
          .build();
   }
 
-  public static Order completeOrderWithoutCatBreed(){
+  public static Order completeOrderWithoutCatBreed() {
+
     return new DataBuilderConventional()
-         .setIdOrder(parseInt(CustomDataFaker.Provides.SinId()))
+         .setIdOrder((int) CustomDataFaker.Provides.RandomDouble())
          .build();
   }
 
-//  public static void main(String[] args) {
-//    Order order = new DataBuilderConventional()
-//         .setIdOrder(1)
-//         .setCatBreed("Siamese")
-//         .build();
-//  }
+  public static void main(String[] args) {
+
+    Order order =
+         new DataBuilderConventional()
+              .setIdOrder(1)
+              .setCatBreed("Siamese")
+              .build();
+  }
 
 }

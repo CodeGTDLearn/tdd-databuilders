@@ -577,6 +577,10 @@ public class CustomDataFaker {
       return minValue + (random.nextDouble() * (maxValue - minValue));
     }
 
+    public static double RandomDouble() {
+      return random.nextDouble();
+    }
+
 
     public static long RandomLong(long minValue, long maxValue) {
 

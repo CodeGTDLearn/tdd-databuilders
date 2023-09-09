@@ -23,6 +23,8 @@ Order orderWithId = DataBuilderConventional.completeOrderWithId();
 Order orderWithoutId = DataBuilderConventional.completeOrderWithoutId();
 Order orderWithoutCatBreed = DataBuilderConventional.completeOrderWithoutCatBreed(); 
 ```
+#### Visual Example:
+![img.png](img.png)
 
 ### DataBuilderLombok
 
@@ -42,6 +44,8 @@ Order orderWithFixedId = builder.create();
 DataBuilderLombok builderRandom = DataBuilderLombok.ordemComIdRandom();
 Order orderWithRandomId = builderRandom.create();
 ```
+#### Visual Example
+![img_1.png](img_1.png)
 
 ### What is a Stub? 🚀
 
