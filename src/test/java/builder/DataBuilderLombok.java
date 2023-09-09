@@ -11,12 +11,11 @@ import static java.lang.Integer.parseInt;
 
 @Builder
 @Getter
-public class DataBuilder {
+public class DataBuilderLombok {
 
-  private Order ordem;   //variavel de instancia do DataBuilder
+  private Order order;   //variavel de instancia do DataBuilder
 
-  //    FakeValuesService faker = new FakeValuesService(
-  //            new Locale("en-US"), new RandomService());
+  //    FakeValuesService faker = new FakeValuesService(new Locale("en-US"), new RandomService());
   //    faker.letterify("12??89"); //will return something like "12hZ89"
   //    faker.numerify("ABC##EF"); //will return something like "ABC99EF"
   //    faker.bothify("12??##ED"); //will return something like "12iL27ED"
@@ -33,29 +32,29 @@ public class DataBuilder {
                      .regexify("[1-9] {3}")
                      .trim());
 
-  public static DataBuilder ordemComId() {
+  public static DataBuilderLombok ordemComId() {
 
-    return DataBuilder.builder()
+    return DataBuilderLombok.builder()
 
-                      //builda a variavel de instancia: 'ordem'
-                      .ordem(
+                            //builda a variavel de instancia: 'ordem'
+                            .order(
                                 new Order(111, "bengal")
                                  )
-                      .build();// carregamento ESTATICO
+                            .build();// carregamento ESTATICO
   }
 
-  public static DataBuilder ordemComIdRandom() {
+  public static DataBuilderLombok ordemComIdRandom() {
 
-    return DataBuilder.builder()
-                      //builda a variavel de instancia: 'ordem'
-                      .ordem(
+    return DataBuilderLombok.builder()
+                            //builda a variavel de instancia: 'ordem'
+                            .order(
                                 new Order(orderIdFake, catBreed)
                                  )
-                      .build();// carregamento DINAMICO/RANDOMICO
+                            .build();// carregamento DINAMICO/RANDOMICO
   }
 
   public Order create() {
 
-    return ordem;// retorna a variavel de instancia 'ordem'
+    return order;// retorna a variavel de instancia 'ordem'
   }
 }

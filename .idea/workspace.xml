@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d95edc3-ddd0-46f0-bf3f-5f48b8459b1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builder/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/OrderBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entity/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/OrderTest.java" afterDir="false" />
+    <list default="true" id="5d95edc3-ddd0-46f0-bf3f-5f48b8459b1a" name="Default Changelist" comment="2) Conclusion">
+      <change afterPath="$PROJECT_DIR$/src/test/java/builder/DataBuilderConventional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CustomDataFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/DataBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/DataBuilderLombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/DataBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/DataBuilderLombokTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -33,65 +40,70 @@
     </option>
   </component>
   <component name="ProjectId" id="1aP8zDVjBfxvYVcIY56L53XQc6u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/builders" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SERVIDOR\Projects\cursotdd\src\test\builders" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SERVIDOR\Projects\cursotdd\src\test\builders" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="entity" />
       <recent name="" />
       <recent name="order" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SERVIDOR\Projects\cursotdd\src\test\builders" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SERVIDOR\Projects\cursotdd\src\test\builders" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entity" />
+      <recent name="utils" />
+      <recent name="builder" />
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest">
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataBuilderLombokTest">
+    <configuration name="DataBuilderLombokTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cursotdd" />
       <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.OrderTest" />
+      <option name="MAIN_CLASS_NAME" value="entity.DataBuilderLombokTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBuilderLombokTest.test111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cursotdd" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.DataBuilderLombokTest" />
+      <option name="METHOD_NAME" value="test111" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBuilderLombokTest.test222" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cursotdd" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.DataBuilderLombokTest" />
+      <option name="METHOD_NAME" value="test222" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,35 +117,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.test111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cursotdd" />
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.OrderTest" />
-      <option name="METHOD_NAME" value="test111" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.test222" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cursotdd" />
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.OrderTest" />
-      <option name="METHOD_NAME" value="test222" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.OrderTest.test222" />
-        <item itemvalue="JUnit.OrderTest.test111" />
+        <item itemvalue="JUnit.DataBuilderLombokTest" />
         <item itemvalue="JUnit.OrderTest222" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -158,79 +149,32 @@
       <workItem from="1587076411271" duration="996000" />
       <workItem from="1587077483805" duration="4280000" />
     </task>
+    <task id="LOCAL-00001" summary="2) Conclusion">
+      <created>1640712847858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640712847858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="81" y="0" key="#Plugins" timestamp="1586967733876">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="81" y="0" key="#Plugins/0.0.1376.774@0.0.1376.774" timestamp="1586967733876" />
-    <state x="0" y="0" key="#Project_Structure" timestamp="1586638556934">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="0" y="0" key="#Project_Structure/0.0.1376.774@0.0.1376.774" timestamp="1586638556934" />
-    <state x="100" y="100" width="1176" height="574" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586647255638">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="100" y="100" width="1176" height="574" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1376.774@0.0.1376.774" timestamp="1586647255638" />
-    <state x="310" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586638175329">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="310" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1376.774@0.0.1376.774" timestamp="1586638175329" />
-    <state x="366" y="201" width="643" height="371" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587075223594">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="366" y="201" width="643" height="371" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1376.774@0.0.1376.774" timestamp="1587075223594" />
-    <state x="366" y="151" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1587074958992">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="366" y="151" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1376.774@0.0.1376.774" timestamp="1587074958992" />
-    <state x="288" y="12" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587059166050">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="288" y="12" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1376.774@0.0.1376.774" timestamp="1587059166050" />
-    <state width="1314" height="278" key="GridCell.Tab.0.bottom" timestamp="1587080560238">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
-    <state width="1314" height="278" key="GridCell.Tab.0.center" timestamp="1587080560238">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
-    <state width="1314" height="278" key="GridCell.Tab.0.left" timestamp="1587080560238">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
-    <state width="1314" height="278" key="GridCell.Tab.0.right" timestamp="1587080560238">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state width="1314" height="278" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1587080560238" />
-    <state x="0" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586649558322">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="0" y="0" key="Maven.ArtifactSearchDialog/0.0.1376.774@0.0.1376.774" timestamp="1586649558322" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1586649689065">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1376.774@0.0.1376.774" timestamp="1586649689065" />
-    <state x="411" y="131" key="chooseDestDirectoryDialog" timestamp="1587073705147">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="411" y="131" key="chooseDestDirectoryDialog/0.0.1376.774@0.0.1376.774" timestamp="1587073705147" />
-    <state x="350" y="140" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586648892711">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="350" y="140" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1376.774@0.0.1376.774" timestamp="1586648892711" />
-    <state x="361" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1586640130364">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="361" y="63" key="refactoring.ChangeSignatureDialog/0.0.1376.774@0.0.1376.774" timestamp="1586640130364" />
-    <state x="181" y="0" width="1009" height="770" key="search.everywhere.popup" timestamp="1586638242958">
-      <screen x="0" y="0" width="1376" height="774" />
-    </state>
-    <state x="181" y="0" width="1009" height="770" key="search.everywhere.popup/0.0.1376.774@0.0.1376.774" timestamp="1586638242958" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2) Conclusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="2) Conclusion" />
   </component>
 </project>
